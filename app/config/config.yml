@@ -55,8 +55,10 @@ doctrine:
         #path: '%database_path%'
         types:
           color:  MyBundle\Type\ColorType
+          pet_types:  MyBundle\Type\PetTypes
         mapping_types:
           color: color
+          pet_types: pet_types
 
     orm:
         auto_generate_proxy_classes: '%kernel.debug%'
