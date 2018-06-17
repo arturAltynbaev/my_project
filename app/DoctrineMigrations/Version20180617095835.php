@@ -29,6 +29,6 @@ class Version20180617095835 extends AbstractMigration
         // this down() migration is auto-generated, please modify it to your needs
         $this->abortIf($this->connection->getDatabasePlatform()->getName() !== 'postgresql', 'Migration can only be executed safely on \'postgresql\'.');
 
-        $this->addSql('DROP DOMAIN IF EXISTS color;');
+        $this->addSql('DROP DOMAIN IF EXISTS pet_types;');
     }
 }
