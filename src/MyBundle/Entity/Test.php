@@ -42,6 +42,13 @@ class Test
      */
     private $colorTypes;
 
+    /**
+     * @var array
+     *
+     * @ORM\Column(name="pet_types", type="pet_types", nullable=true)
+     */
+    private $petTypes;
+
 
     /**
      * Get id
